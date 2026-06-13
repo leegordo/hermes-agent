@@ -1,0 +1,56 @@
+# Sensitive files
+.env
+auth.json
+auth.lock
+
+# Database / state
+state.db
+state.db-shm
+state.db-wal
+kanban.db
+kanban.db-shm
+kanban.db-wal
+
+# Session data
+sessions/
+
+# Logs
+cron/output/
+logs/
+*.log
+interrupt_debug.log
+
+# Caches
+cache/
+image_cache/
+audio_cache/
+sandboxes/
+pastes/
+
+# Runtime / lock files
+*.lock
+gateway.lock
+gateway.pid
+gateway_state.json
+processes.json
+channel_directory.json
+.update_check
+.skills_prompt_snapshot.json
+.install_method
+
+# Backup files
+config.yaml.bak.*
+
+# Local env
+venv-mcp/
+
+# Installed binaries / LSP servers
+bin/
+lsp/
+
+# State files
+state/
+
+# Misc
+.hermes_history
+memories/*.lock

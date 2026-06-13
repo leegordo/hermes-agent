@@ -1,0 +1,9 @@
+{
+  "last_report_path": "/root/.hermes/logs/curator/20260609-033839",
+  "last_run_at": "2026-06-09T03:38:39.720848+00:00",
+  "last_run_duration_seconds": 749.228814,
+  "last_run_summary": "auto: no changes; llm: All consolidations are complete and verified. Here's the summary:\n\n---\n\n## Consolidation Report\n\n### Cluster Analysis Performed\n\n**Cluster 1: `design-*` (3 members): `design-tool-bridges`, `figma-plugin-dev`, `portfolio-website-redesign`**\n…\narchived 2 skill(s):\n  • figma-plugin-dev → design-tool-bridges\n  • static-site-quality-audit → static-site-deployment\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin design-tool-bridges",
+  "last_run_summary_shown_at": null,
+  "paused": false,
+  "run_count": 2
+}

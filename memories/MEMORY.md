@@ -1,0 +1,11 @@
+User (Frag / Lee Gordon) has a personally designed LG monogram logo that he cares deeply about. When reviewing design directions for his portfolio, he explicitly called out "I spent a lot of time designing that" and asked for it to be integrated into all design concepts. The logo is white-on-transparent, located at `/images/logo.png` on his portfolio (leegordon.design). Always include his logo in design work and treat it as a core brand identity element, not an afterthought.
+§
+User prefers GitHub Pages as default static site deployment method when showing creative work. Default flow: build locally → gh repo create --public --source=. --push → GitHub API enable Pages → live at leegordo.github.io/<repo>. Netlify is fallback only if CLI + token already working. User said: "whatever is easiest for you to host websites when you want to show me things."
+§
+Key tools: Figma, Signal, Cursor Agent at /root/.local/bin/cursor-agent, billing-tool.netlify.app, portfolio leegordo.github.io/portfolio/, Google API (Gmail), DoodleHaus→Notion, Pencil.dev MCP via Tailscale. MemPalace hub operational: ~/Projects/multi-agent-memory/, auto-sync every 15 min via Hermes cron.
+§
+Hermes auto-update cron is running: job f8c86e868f9e at 12:00 UTC daily, script ~/.hermes/scripts/auto-update-hermes.sh. Uses `hermes update --yes --no-backup`. Also: when creating cron jobs via the `cronjob` tool with a `script` field, the path must be relative to ~/.hermes/scripts/ (just the filename, not absolute or ~-prefixed).
+§
+0xCreative simplified to 3 sections (June 2026): Committee (weekly agent idea debates), Gallery (daily DESIGN.md design systems), Blog (weekly articles). Factory and Portal cut. Cron: daily DESIGN.md 9am CST, weekly committee Mondays, weekly blog Thursdays. Site at ~/Projects/0xcreative/, CSS at assets/css/0xcreative.css. Dark void aesthetic (#050508, #00f0ff accent, Space Grotesk + JetBrains Mono).
+§
+User regularly checks the 0xCreative site on their phone. When they say "it's looking pretty bad on my phone," they expect immediate mobile CSS fixes without exhaustive analysis. They don't want a long audit report — just fix it. Tested on 375px iPhone viewport.
